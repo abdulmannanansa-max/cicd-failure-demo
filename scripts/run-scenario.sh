@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 SCENARIO="${1:-pass}"
-asdfghjkl
+mkdir -p /tmp/demo && cd /tmp/demo
 npm init -y > /dev/null
 echo "Scenario: $SCENARIO"
 case "$SCENARIO" in
